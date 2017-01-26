@@ -1,25 +1,38 @@
 h1 { font-family: "Arial", sans serif;
 text-align:center;
-margin: 50px;
+margin: 50 50 100 50px;
 }
 
 .row {
   width: 125%;
+  
   }
 
 p {
   margin-left: auto;
   margin-right: auto;
-  width: 90%;}
+  width: 90%;
   
+  }
+  
+#chicken {
+  border: 1px solid black;
+  padding: 10px 0 5px 5px;
+  float: right;
+  background-color: pink;
+  font-style: bold;
+  }
   
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid black;
+    border: 2px solid black;
     margin: 10px;
+    background-color: #c0c0c0;
+
+    
   }
   .col-lg-1 {
     width: 8.33%;
